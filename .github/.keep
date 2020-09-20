@@ -1,0 +1,31 @@
+const b = "bruh"; //str cannot be changed later
+const p = "not poggers";
+var a = 22; //num
+var bruh;
+
+
+
+
+
+
+console.log("life val : ", a);
+
+bruhdometer(bruh, a, b, p);
+
+
+a -= 10;
+console.log("life val : ", a);
+bruhdometer(bruh, a, b, p);
+
+
+function bruhdometer(bruhStatus, num, bruhStatement, antiBruh){
+    if (num >= 22) {
+        console.log(bruhStatement);
+        bruhStatus = true;
+    }else {
+        console.log(antiBruh);
+        bruhStatus = false;
+
+    }
+    console.log("bruh status : " , bruhStatus);
+}
